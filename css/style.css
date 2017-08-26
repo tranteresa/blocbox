@@ -6,10 +6,7 @@ body {
   color:#333333;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
-}
-h1 {
-  animated: infinite fadeIn;
+  font-family: "Open Sasa q   s", Helvetica, Arial, sans-serif;
 }
 
 h2 {
@@ -47,89 +44,3 @@ p{
   margin: 0 2% 20px;
 }
 
-@@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-  .one-half {
-    width: 46%;
-  }
-  .one-third {
-    width: 29.33333%;
-  }
-  .one-fourth {
-    width: 21%;
-  }
-}
-@@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
-
-/*HEADER*/
-header {
-  color: #FFFFFF
-  background: #0560FF
-  background-image: linear-gradient(-225deg, #8CCEFF 0%, #0B5FFF 100%);
-}
-
-header .hero {
-  text-align: center;
-  display: block;
-  position: relative;
-}
-header .hero h1 {
-  font-size: 48px;
-  font-weight: normal;
-  margin: 95px 0 0;
-}
-header .hero p {
-  font-size: 22px
-  line-height: 26px
-  font-weight: 100;
-  margin: 10px 0 40px;
-}
-header .hero  img {
-  display: block;
-  margin: 3em auto 0;
-}
-
-
-header nav {
-  padding: 1em 0;
-}
-header nav ul {
-  display: inline;
-  text-align: right;
-  float: right;
-  margin: 0;
-}
-header nav ul > li {
-  list-style-type: none;
-  display: inline-block;
-  margin: 0 15px;
-}
-header nav ul > li.btn-outline {
-  padding: 10px 15px;
-  border: 2px solid #FFFFFF;
-  border-radius: 4px;
-}
-header nav ul >li.btn-outline:hover {
-  background: #FFFFFF;
-}
-header nav ul > li a {
-  color: #FFFFFF;
-  text-decoration: none;
-}
-header nav ul > li.btn-outline:hover > a {
-  color: #0560FF
-}
-
-
-/* BUTTON */
