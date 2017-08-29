@@ -327,11 +327,12 @@ list-style-type: none;
 
 /* CONFIDENCE */
 .confidence {
-  padding: 4em 0;
+  position: relative;
+  padding: 5em 0;
   text-align: center;
-  margin: 0;
+  margin: 0 3em;
   display: block;
-  float: left;
+  float: middle;
 } 
 .confidence h2 {
   color: #6DC1FF;
@@ -339,12 +340,71 @@ list-style-type: none;
   vertical-align: top;
   text-align: center;
 }
+.confidence ul p a {
+  vertical-align: top;
+  text-align: center;
+  padding: 2em 0;
+} 
 
+@media (min-width: 992px) {
+  main .confidence {
+    height: 1em;
+    padding: 5em 0 5em 0;
+  }
+}
 
-
-
-
-
+/* FOOTER */
+footer {
+  margin: 10em;
+  display: inline-block;
+  background-color: #0560FF;
+  background-image: linear-gradient(#0B5FFF 0%, #0B5FFF 50%, #8CCEFF 50%, #8CCEFF 100%);
+  color: #FFFFFF;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+}
+footer p, footer nav ul {
+  font-size: 14px;
+  font-weight: 100;
+  text-align: center;
+  margin: 10px auto 0;
+}
+footer nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+footer nav ul li a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .right-footer-block {
+  background-color: transparent;
+}
+footer .logo {
+  padding: 2.35em 0;
+  margin: 0 auto;
+  display: block;
+}
+@media (min-width: 992px) {
+  footer {
+    background-color: #0560FF;
+    background-image: linear-gradient(to left, 
+      #6DC1FF 0%, #6DC1FF 33.33337%, #0560FF 33.33337%, #0560FF 100%);
+    height: 100px;
+  }
+  footer p, footer nav ul {
+    padding: 2em 0;
+    text-align: left;
+  }
+  footer .right-footer-block {
+    background-color: #6DC1FF;
+  }
+  footer .logo {
+    padding: 2em 0 2em 1.5em;
+  }
+}
 
 
 
