@@ -500,6 +500,11 @@ footer {
    margin-right:8px;
 }
 
+li.active {
+  background:#A6B5DC;
+  padding:10px 10%;
+}
+
 /* LEFT NAVBAR SETTINGS */
 .left-nav .settings {
    position:absolute;
