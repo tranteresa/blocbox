@@ -66,9 +66,9 @@ header nav ul {
   text-align: right;
   float:right;
   margin:0;
-  font-size: 15px;
+  font-size: 10px;
   position: relative;
-  width: 86%;
+  width: 90%;
 }
 header nav ul > li {
   list-style-type: none;
@@ -116,7 +116,27 @@ header .hero  img {
   height: auto;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 400px) {
+    header nav ul {
+    display: inline;
+    text-align: right;
+    float:right;
+    margin:0;
+    font-size: 12px;
+    position: relative;
+    width: 90%;
+  }
+}
+@media (min-width: 500px) {
+  header nav ul {
+    display: inline;
+    text-align: right;
+    float:right;
+    margin:0;
+    font-size: 15px;
+    position: relative;
+    width: 90%;
+  }
   header .hero h1 {
     font-size: 48px;
     font-weight: normal;
@@ -425,56 +445,6 @@ footer {
     padding: 2em 0 2em 1.5em;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
