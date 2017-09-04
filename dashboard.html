@@ -11,14 +11,17 @@
 <link href="https://fonts.googleapis.com/css?family=Nunito:300,300i,400,400i,700,700i|Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet" type="text/css">
 
 <!-- CSS -->
-<link rel="stylesheet" href="css/normalize.css" type="text/css">
-<link rel="stylesheet" href="css/style.css" type="text/css">
-<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
-<link rel="stylesheet" href="css/animate.css" type="text/css">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/dropit.css">
 
 </head>
 
 <body class="dashboard">
+
+<!-- RESPONSIVE NAV -->
+<a class="hamburger" id="menu" href="#">&#9776;</a>
 
 <!-- LEFT NAV -->
 	<nav id="left-nav" class="left-nav">
@@ -52,7 +55,16 @@
     <div class="container">
       <div class="header">
         <h1>All Items</h1>
-        <a href="#" class="btn">+ Add</a>
+        <ul class="menu">
+          <li>
+            <a href="#" class="btn">+ Add</a>
+            <ul>
+              <li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
+              <li><a href="#"><i class="fa fa-picture-o"></i> Image</a></li>
+              <li><a href="#"><i class="fa fa-link"></i> Link</a></li>
+            </ul>
+          </li>
+        </ul>
       </div>
     </div>
   <!-- Benefits - Content -->
@@ -117,5 +129,13 @@
 
     </section>
   </main>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/dropit.js"></script>
+  <script type="text/javascript">
+    $(".menu").dropit();
+    $( "#menu" ).click(function() {
+      $("#left-nav").toggleClass("open", 200);
+    });
+  </script>
 </body>
 </html>
