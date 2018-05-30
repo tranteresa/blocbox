@@ -77,7 +77,7 @@ I used UX design concepts to create mockups and a clickable web page to showcase
   * HTML/CSS Development
   * Usability Testing
 
-## Built With
+## Languages & Tools
 * [SketchApp](https://www.sketchapp.com/)
 * [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 * [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
@@ -97,6 +97,11 @@ Checkout [Blocbox](https://tranteresa.github.io/blocbox/).
 ![homepage](https://github.com/tranteresa/blocbox/blob/gh-pages/homepage.gif)
 
 ![collection_view](https://github.com/tranteresa/blocbox/blob/gh-pages/dashboard.png)
+
+
+## Authors
+
+* **Teresa Tran**
 
 
 ## Resources
