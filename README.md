@@ -84,19 +84,19 @@ I used UX design concepts to create mockups and a clickable web page to showcase
 * [Github](https://github.com/)
 
 ## Logo
-![logo_inprogress](https://github.com/tranteresa/blocbox/blob/master/readme_assets/logo_inprogress.png)
+![logo_inprogress](https://github.com/tranteresa/blocbox/blob/gh-pages/logo_inprogress.png)
 
-![final_logo](https://github.com/tranteresa/blocbox/blob/master/readme_assets/final_logo.png)
+![final_logo](https://github.com/tranteresa/blocbox/blob/gh-pages/final_logo.png)
 
 
 ## Demo
 Checkout [Blocbox](https://tranteresa.github.io/blocbox/).
 
-![homepage](https://github.com/tranteresa/blocbox/blob/master/readme_assets/homepage.png)
+![homepage](https://github.com/tranteresa/blocbox/blob/gh-pages/homepage.png)
 
-![homepage](https://github.com/tranteresa/blocbox/blob/master/readme_assets/homepage.gif)
+![homepage](https://github.com/tranteresa/blocbox/blob/gh-pages/homepage.gif)
 
-![collection_view](https://github.com/tranteresa/blocbox/blob/master/readme_assets/dashboard.png)
+![collection_view](https://github.com/tranteresa/blocbox/blob/gh-pages/dashboard.png)
 
 
 ## Resources
